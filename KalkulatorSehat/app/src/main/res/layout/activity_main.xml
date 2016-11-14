@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sparda.pirates.kalkulatorsehat.MainActivity">
+
+    <ImageView
+        android:layout_width="121dp"
+        app:srcCompat="@mipmap/air"
+        tools:layout_editor_absoluteY="29dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView3"
+        android:layout_height="69dp" />
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="69dp"
+        app:srcCompat="@mipmap/berat"
+        tools:layout_editor_absoluteY="97dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="121dp"
+        app:srcCompat="@mipmap/exit"
+        tools:layout_editor_absoluteY="373dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView5"
+        android:layout_height="69dp" />
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="69dp"
+        app:srcCompat="@mipmap/riwayat"
+        tools:layout_editor_absoluteY="235dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView6" />
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="69dp"
+        app:srcCompat="@mipmap/tentang"
+        tools:layout_editor_absoluteY="304dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="69dp"
+        app:srcCompat="@mipmap/tinggi"
+        tools:layout_editor_absoluteY="166dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView8" />
+
+    <Button
+        android:text="Konsumsi air Minum Harian"
+        tools:layout_editor_absoluteY="28dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:id="@+id/button3"
+        android:layout_height="69dp"
+        android:layout_width="263dp"
+        android:textSize="17sp" />
+
+    <Button
+        android:text="Berat Ideal"
+        tools:layout_editor_absoluteY="98dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:id="@+id/button4"
+        android:layout_height="69dp"
+        android:layout_width="263dp"
+        android:textSize="17sp" />
+
+    <Button
+        android:text="Tinggi Ideal"
+        tools:layout_editor_absoluteY="167dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:id="@+id/button5"
+        android:layout_width="263dp"
+        android:layout_height="69dp"
+        android:textSize="17sp" />
+
+    <Button
+        android:text="Riwayat"
+        tools:layout_editor_absoluteY="235dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:id="@+id/button6"
+        android:layout_width="263dp"
+        android:layout_height="69dp"
+        android:textSize="17sp" />
+
+    <Button
+        android:text="Tentang"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteY="304dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:id="@+id/button7"
+        android:layout_width="263dp"
+        android:textSize="17sp" />
+
+    <Button
+        android:text="Keluar"
+        tools:layout_editor_absoluteY="373dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:id="@+id/button8"
+        android:layout_width="263dp"
+        android:layout_height="69dp"
+        android:textSize="17sp" />
+
+</android.support.constraint.ConstraintLayout>
